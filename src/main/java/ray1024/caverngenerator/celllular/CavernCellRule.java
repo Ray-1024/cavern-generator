@@ -1,4 +1,4 @@
-package ray1024.caverngenerator;
+package ray1024.caverngenerator.celllular;
 
 import java.util.Arrays;
 import java.util.Objects;
