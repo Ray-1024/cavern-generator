@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'ray1024.caverngenerator'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'ray1024.caverngenerator.Main'
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+}
