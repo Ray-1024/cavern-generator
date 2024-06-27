@@ -1,4 +1,5 @@
 package ray1024.caverngenerator.celllular;
 
-public class CellularAutomaton<T extends Cell> {
+public interface CellularAutomaton<T extends Cell> {
+    void refresh();
 }
